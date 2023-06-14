@@ -1,0 +1,148 @@
+.icon {
+  margin-right: 40px;
+  position: relative;
+  border-radius: var(--br-6xs);
+  width: 132px;
+  height: 74.06px;
+  object-fit: cover;
+  cursor:pointer;
+}
+
+.placeholder-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+
+.text {
+  cursor:pointer;
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.button {
+  border-radius: var(--br-8xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+}
+
+.chevrondown-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.container {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.dropdown {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.horizontal-container1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+}
+
+.text2 {
+  position: relative;
+  line-height: 22px;
+  font-weight: 600;
+  display: none;
+}
+
+.button4 {
+  border-radius: var(--br-7xs);
+  background-color: var(--text-green);
+  box-shadow: var(--shadow-xsm);
+  overflow: hidden;
+  padding: var(--padding-xs) var(--padding-lg);
+  justify-content: center;
+  gap: var(--gap-7xs);
+  color: var(--creme);
+}
+
+.button2,
+.button4,
+.horizontal-container,
+.page-header {
+  margin:10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.button2 {
+  justify-content: flex-end;
+  gap: var(--gap-5xl);
+  color: var(--primary-600);
+}
+
+.horizontal-container,
+.page-header {
+  width: 1280px;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.page-header {
+  background-color: var(--white);
+  border-bottom: 1px solid var(--neutral-600);
+  width: 100%;
+  padding: var(--padding-xl) var(--padding-141xl);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--text-button-semibold-large-size);
+  color: var(--gray-700);
+  font-family: var(--text-button-semibold-large);
+}

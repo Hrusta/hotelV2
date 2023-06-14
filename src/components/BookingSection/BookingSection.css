@@ -1,0 +1,151 @@
+.circle-5-icon {
+  position: absolute;
+  top: 0;
+  right: 8.32%;
+  bottom: -20.12%;
+  left: 63.87%;
+
+ 
+  height: 120.12%;
+  width: 27.81%;
+
+
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.hotel-park-45 {
+  align-self: stretch;
+  position: relative;
+}
+
+.icostarfilled-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.travel-sustainable {
+  position: relative;
+}
+
+.sec2,
+.sec3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+}
+
+.sec3 {
+  border-radius: var(--br-11xs);
+  background-color: var(--color-limegreen-100);
+  padding: var(--padding-11xs) var(--padding-7xs);
+  justify-content: center;
+}
+
+.sec2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  font-size: var(--segoe-ui-16-400-size);
+  color: var(--state-success);
+}
+
+.sec1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+
+.guests-who-found,
+.sec,
+.sec1,
+.sec4 {
+  display: flex;
+  align-items: center;
+}
+
+.sec4 {
+  border-radius: var(--br-9xs) var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--booking-primary);
+  flex-direction: column;
+  padding: var(--padding-9xs);
+  justify-content: center;
+  font-size: var(--segoe-ui-16-400-size);
+  color: var(--white);
+}
+
+.guests-who-found,
+.sec {
+  position: absolute;
+}
+
+.sec {
+  top: 118px;
+  left: 990px;
+  background-color: var(--white);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+  width: 375px;
+  flex-direction: row;
+  padding: var(--padding-base);
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+
+.guests-who-found {
+  top: 83px;
+  left: calc(50% - 582px);
+  font-size: var(--h2-size);
+  font-family: var(--h2);
+  color: var(--text-green);
+  width: 603px;
+}
+
+.circle-5-parent {
+  position: relative;
+  background-color: var(--creme);
+  width: 100%;
+  height: 333px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--segoe-ui-24-700-size);
+  color: var(--neutral-almost-black);
+  font-family: var(--segoe-ui-16-400);
+}
+
+
+@media (max-width: 768px) {
+  .guests-who-found,
+  .sec {
+    position: static;
+    flex-direction: column;
+  }
+
+  .circle-5-parent {
+    height: 450px;
+  }
+
+  .guests-who-found {
+    margin-top: 40px;
+    top: auto;
+    left: auto;
+    width: 100%;
+    
+  }
+
+  .sec {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: auto;
+    left: auto;
+    width: 100%;
+    border-radius: 0;
+    justify-content: flex-start;
+  }
+}

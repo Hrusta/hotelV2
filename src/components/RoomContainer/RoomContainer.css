@@ -1,0 +1,71 @@
+.image-11-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 421.48px;
+  height: auto; /* Change 'fit-content' to 'auto' */
+  object-fit: cover;
+}
+
+.image-11-wrapper {
+  align-self: stretch;
+  position: relative;
+  border-radius: 10.32px;
+  background-color: var(--white);
+  height: 280.88px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.standard-single-room {
+  position: relative;
+  font-size: var(--h3-size);
+  line-height: 1.2; /* Change '0%' to a value like '1.2' or '120%' */
+  font-weight: 600;
+  font-family: var(--h2);
+  display: inline-block;
+  width: 335px;
+}
+
+.perfect-for-solo {
+  position: relative;
+  line-height: 1.5; /* Change '148.4%' to a value like '1.5' or '150%' */
+  display: flex;
+  align-items: center;
+  width: 335px;
+}
+
+.book-now {
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.vector-icon {
+  position: relative;
+  width: 15px;
+  height: 12.5px;
+  cursor: pointer;
+}
+
+.book-now-parent,
+.frame-parent1,
+.standard-single-room-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+
+.frame-parent1,
+.standard-single-room-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xl); /* Add this line to set the vertical gap */
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--text-green);
+  font-family: var(--body-regular);
+}

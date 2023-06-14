@@ -1,0 +1,165 @@
+.we-love-discounts {
+  margin: 0;
+}
+
+.we-love-discounts-container1 {
+  line-break: anywhere;
+  width: 100%;
+  word-break: break-all; /* Add this line */
+}
+
+.we-love-discounts-container {
+  position: absolute;
+  top: 116px;
+  left: calc(50% - 592px);
+  font-size: var(--h2-size);
+  font-family: var(--h2);
+  display: flex;
+  align-items: center;
+  width: 603px;
+}
+
+.at-park-45,
+.e-mail-address {
+  position: absolute;
+  line-height: 148.4%;
+}
+
+.at-park-45 {
+  top: 248px;
+  left: 128px;
+  display: flex;
+  align-items: center;
+  width: 554px;
+}
+
+.e-mail-address {
+  top: 13px;
+  left: 22px;
+}
+
+.e-mail-address-wrapper {
+  position: absolute;
+  top: 384px;
+  left: 128px;
+  border-radius: var(--br-14xl);
+  border: 0.7px solid var(--text-green);
+  box-sizing: border-box;
+  width: 521px;
+  height: 54px;
+  overflow: hidden;
+}
+
+.support {
+  font-size: var(--h2-size);
+  font-family: var(--h2);
+}
+
+.faqs,
+.legal,
+.support {
+  position: relative;
+}
+
+.faqs{
+  cursor: pointer;
+}
+
+.legal {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pages-parent,
+.support-parent {
+  position: absolute;
+  top: 128px;
+  left: 1116px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-14xl);
+}
+
+.pages-parent {
+  left: 909px;
+  gap: var(--gap-13xl);
+}
+
+.we-love-discounts-we-hope-you-parent {
+  position: relative;
+  background-color: var(--creme);
+  width: 1440px;
+  height: 564px;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--body-regular-size);
+  color: var(--text-green);
+  font-family: var(--body-regular);
+}
+
+.input-field {
+  border: none;
+  width: 480px;
+  padding: 20px;
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: black;
+}
+
+
+@media screen and (max-width: 768px) {
+  .we-love-discounts{
+    transform: translateX(-20%);
+    word-break: break-all;
+  }
+
+  .at-park-45{
+    transform: translateX(-20%);
+    overflow-wrap: break-word;
+    
+  }
+
+  .e-mail-address-wrapper{
+    left:10px;
+  }
+}
+
+@media screen and (max-width: 1262px) {
+  .links{
+    visibility: hidden;
+  }
+
+  .support-parent{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .we-love-discounts{
+    transform: translateX(-20%);
+    word-break: break-all;
+  }
+
+  .at-park-45{
+    transform: translateX(-30%);
+    overflow-wrap: break-word;
+    width: 374px;
+  }
+
+  .e-mail-address-wrapper{
+    margin-top: 50px;
+    width: 350px;
+  }
+
+  .input-field{
+    width: 350px;
+  }
+}

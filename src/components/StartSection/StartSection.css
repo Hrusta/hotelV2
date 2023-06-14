@@ -1,0 +1,87 @@
+.hero-image-overlay-child {
+  position: absolute;
+  top: 25.94px;
+  left: 0;
+  background: linear-gradient(
+    59.41deg,
+    rgba(0, 0, 0, 0.46),
+    rgba(0, 0, 0, 0.21) 52.43%,
+    rgba(217, 217, 217, 0)
+  );
+  width: 100%;
+  height: 748px;
+}
+
+.hero-image-overlay {
+  position: relative;
+  width: 100%;
+  height: 774px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image-9-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 959.63px;
+  object-fit: cover;
+}
+
+.escape-to-a {
+  position: absolute;
+  top: 376px;
+  left: 131px;
+  line-height: 110%;
+  display: flex;
+  align-items: flex-start;
+  width: 651px;
+  height: 171px;
+  word-break: break-word; 
+}
+
+.book-your-stay-wrapper {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-base) 22px;
+  background-color: transparent;
+  position: absolute;
+  top: 602px;
+  left: 131px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.book-your-stay {
+  position: relative;
+  font-size: var(--segoe-ui-24-700-size);
+  font-weight: 600;
+  font-family: var(--body-regular);
+  color: var(--white);
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .escape-to-a {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    text-align: center;
+    
+  }
+
+  .book-your-stay-wrapper {
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    justify-content: center;
+  }
+
+  
+  
+}

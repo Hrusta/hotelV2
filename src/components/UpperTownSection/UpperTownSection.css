@@ -1,0 +1,152 @@
+.zagreb-must-visits {
+  position: absolute;
+  top: 10%;
+  left: 10px;
+  right: 10px;
+  font-size: var(--body-regular-size);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--body-regular);
+}
+
+.main-square,
+.upper-town {
+  position: absolute;
+  top: 20%;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  width: calc(100% - 20px);
+}
+
+.main-square {
+  top: 40%;
+  color: var(--color-gray-100);
+}
+
+.maksimir-park {
+  top: 55%;
+  color: var(--color-gray-100);
+  width: calc(100% - 20px);
+}
+
+
+.maksimir-park,
+.zagrebs-upper-town {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.zagrebs-upper-town {
+  margin-right: 100px;
+  top: 30%;
+  font-size: var(--body-regular-size);
+  line-height: 148.4%;
+  font-family: var(--body-regular);
+  width: calc(100% - 20px);
+}
+
+.line-div {
+  position: absolute;
+  top: 28%;
+  left: 10px;
+  right: 10px;
+  border-top: 2px solid var(--white);
+  box-sizing: border-box;
+  width: calc(100% - 20px);
+  height: 2px;
+}
+
+.vector-icon1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14.55px;
+  height: 13.23px;
+}
+
+.zagreb-must-visits-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(34, 34, 34, 0.71), rgba(85, 85, 85, 0));
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.homepage-child {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/frame-29@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--white);
+  font-family: var(--h2);
+}
+
+
+@media (max-width: 993px){
+  .main-square{
+    top:45%
+  }
+
+  .maksimir-park{
+    top:60%
+  }
+
+}
+
+@media (max-width: 768px){
+  .main-square{
+    top:55%
+  }
+
+  .maksimir-park{
+    top:70%
+  }
+
+}
+
+@media (max-width: 481px){
+  .main-square{
+    top:70%
+  }
+
+  .maksimir-park{
+    top:80%
+  }
+
+  .homepage-child{
+    height: 95vh;
+  }
+
+}
+
+@media (max-width: 353px){
+  .main-square{
+    top:67%
+  }
+
+  .maksimir-park{
+    top:82%
+  }
+
+  .homepage-child{
+    height: 95vh;
+  }
+
+}

@@ -1,0 +1,154 @@
+.what-do-people-say-parent {
+  position: relative;
+  width: 100%;
+  height: 467px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--text-green);
+  font-family: var(--h2);
+}
+
+.what-do-people {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 215px);
+}
+
+.frame-item {
+  position: absolute;
+  height: 100.93%;
+  width: 29.48%;
+  top: 0;
+  right: 70.52%;
+  bottom: -0.93%;
+  left: 0;
+  border-radius: 16.35px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.impeccable-service-and,
+.james-p,
+.ivan-t,
+.marinello-j,
+.david-l,
+.samantha-r,
+.sarah-m {
+  position: absolute;
+  display: inline-block;
+}
+
+.impeccable-service-and {
+  width: 60.14%;
+  top: 19.18%;
+  left: 33.25%;
+  font-weight: 300;
+}
+
+.james-p,
+.ivan-t,
+.marinello-j,
+.david-l,
+.samantha-r,
+.sarah-m {
+  height: 21.6%;
+  width: 16.98%;
+  top: 70.41%;
+  left: 33.25%;
+  font-size: var(--body-regular-size);
+  line-height: 148.4%;
+  color: var(--color-dimgray-200);
+}
+
+.marinello-j {
+  width: 22.17%;
+}
+
+.samantha-r {
+  width: 24.53%;
+}
+
+.frame-parent6 {
+  position: relative;
+  margin: 0 auto;
+  border-radius: 16.35px;
+  background-color: var(--creme);
+  box-shadow: -2px 4px 11px rgba(0, 0, 0, 0.09);
+  border: 1px solid var(--color-gainsboro-200);
+  box-sizing: border-box;
+  width: 424px;
+  height: 146px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-parent5,
+.frame-parent9 {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-40xl);
+}
+
+.frame-parent4 {
+  position: absolute;
+  top: 152px;
+  left: 0;
+  width: 100%;
+  height: 315px;
+  text-align: left;
+  font-size: var(--body-extra-small-light-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--body-regular);
+}
+
+@media (max-width: 768px) {
+  .frame-parent6 {
+    width: 100%;
+    max-width: 424px;
+  }
+
+  .what-do-people-say-parent{
+    height: 1300px;
+  }
+  .frame-parent5,
+  .frame-parent9 {
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-40xl);
+  }
+
+  .frame-parent9{
+    margin-top:65px;
+  }
+
+  .frame-parent4 {
+    height: auto;
+    padding: 16px;
+  }
+
+  .impeccable-service-and {
+    width: 50%;
+    left: 60%;
+    transform: translateX(-50%);
+    word-wrap: break-word;
+  }
+
+  .james-p,
+  .ivan-t,
+  .marinello-j,
+  .david-l,
+  .samantha-r,
+  .sarah-m {
+    width: 100%;
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+}

@@ -1,0 +1,107 @@
+.homepage-inner {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  
+}
+
+.experience-unparalleled-comfor-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(39, 39, 39, 0.5);
+  width: 100%;
+  height: 430px;
+  overflow: hidden;
+}
+
+.experience-unparalleled-comfor {
+  position: absolute;
+  top: 97px;
+  left: calc(50% - 596px);
+  display: flex;
+  align-items: center;
+  width: 760px;
+  overflow-wrap: break-word;
+  position: absolute;
+}
+
+.indulge-in-the {
+  position: absolute;
+  top: 102px;
+  left: calc(50% + 175px);
+  font-size: var(--body-regular-size);
+  line-height: 148.4%;
+  font-family: var(--body-regular);
+  display: inline-block;
+  width: 414px;
+  overflow-wrap: break-word;
+}
+
+
+@media (max-width: 1181px) {
+  .experience-unparalleled-comfor {
+    left: 10px;
+    width: auto;
+  }
+  
+  .indulge-in-the {
+    margin-top: 167px;
+    left: 10px;
+    width: auto;
+  }
+
+  .homepage-inner {
+    height: 530px;
+  }
+
+  .experience-unparalleled-comfor-parent{
+    height: 510px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .experience-unparalleled-comfor {
+    left: 10px;
+    width: auto;
+  }
+  
+  .indulge-in-the {
+    margin-top: 167px;
+    left: 10px;
+    width: auto;
+  }
+
+  .homepage-inner {
+    height: 530px;
+  }
+
+  .experience-unparalleled-comfor-parent{
+    height: 510px;
+  }
+}
+
+@media (max-width: 330px) {
+  .experience-unparalleled-comfor {
+    left: 10px;
+    width: auto;
+  }
+  
+  .indulge-in-the {
+    margin-top: 230px;
+    left: 10px;
+    width: auto;
+  }
+
+  .homepage-inner {
+    height: 560px;
+  }
+
+  .experience-unparalleled-comfor-parent{
+    height: 510px;
+  }
+  
+}
+
