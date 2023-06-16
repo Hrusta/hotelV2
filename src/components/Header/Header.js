@@ -41,7 +41,7 @@ const Header = () => {
                 <img
                   className={`chevrondown-icon ${isDropdownOpen ? "open" : ""}`}
                   alt=""
-                  src="/chevrondown.svg"
+                  src="./chevrondown.svg"
                 />
               </div>
               {isDropdownOpen && (
