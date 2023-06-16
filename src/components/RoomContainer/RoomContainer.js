@@ -29,7 +29,7 @@ const RoomContainer = ({
         <img
           className="image-11-icon"
           alt=""
-          src={roomDescription}
+          src={"." + roomDescription}
           style={image11IconStyle}
         />
       </div>
@@ -40,7 +40,7 @@ const RoomContainer = ({
         <div className="perfect-for-solo">{roomAccommodationDescript}</div>
         <div className="book-now-parent">
           <div className="book-now">Book now</div>
-          <img className="vector-icon" alt="" src="/vector.svg" />
+          <img className="vector-icon" alt="" src="./vector.svg" />
         </div>
       </div>
     </div>

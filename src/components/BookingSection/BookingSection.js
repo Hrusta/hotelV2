@@ -14,30 +14,30 @@ const BookingSection = () => {
             <img
               className="icostarfilled-icon"
               alt=""
-              src="/icostarfilled.svg"
+              src="./icostarfilled.svg"
             />
             <img
               className="icostarfilled-icon"
               alt=""
-              src="/icostarfilled.svg"
+              src="./icostarfilled.svg"
             />
             <img
               className="icostarfilled-icon"
               alt=""
-              src="/icostarfilled.svg"
+              src="./icostarfilled.svg"
             />
             <img
               className="icostarfilled-icon"
               alt=""
-              src="/icostarfilled.svg"
+              src="./icostarfilled.svg"
             />
             <img
               className="icostarfilled-icon"
               alt=""
-              src="/icostarfilled.svg"
+              src="./icostarfilled.svg"
             />
             <div className="sec3">
-              <img className="icostarfilled-icon" alt="" src="/icoearth.svg" />
+              <img className="icostarfilled-icon" alt="" src="./icoearth.svg" />
               <div className="travel-sustainable">Travel Sustainable</div>
             </div>
           </div>

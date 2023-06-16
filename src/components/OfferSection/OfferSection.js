@@ -11,7 +11,7 @@ const OfferSection = () => {
             <img
               className="mingcutecar-fill-icon"
               alt=""
-              src="/mingcutecarfill.svg"
+              src="./mingcutecarfill.svg"
             />
             <div className="free-parking">Free parking</div>
           </div>
@@ -19,7 +19,7 @@ const OfferSection = () => {
             <img
               className="mingcutecar-fill-icon"
               alt=""
-              src="/fluentfoodegg24filled.svg"
+              src="./fluentfoodegg24filled.svg"
             />
             <div className="free-parking">Fabulous breakfast</div>
           </div>
@@ -29,7 +29,7 @@ const OfferSection = () => {
             <img
               className="mingcutecar-fill-icon"
               alt=""
-              src="/streamlinetravelhotelbellserviceconciergeportercallringbellhopbellreception.svg"
+              src="./streamlinetravelhotelbellserviceconciergeportercallringbellhopbellreception.svg"
             />
             <div className="free-parking">24-hour front desk</div>
           </div>
@@ -37,7 +37,7 @@ const OfferSection = () => {
             <img
               className="mingcutecar-fill-icon"
               alt=""
-              src="/carbonlocationfilled.svg"
+              src="./carbonlocationfilled.svg"
             />
             <div className="free-parking">Central location</div>
           </div>

@@ -31,12 +31,12 @@ const Header = () => {
   return (
     <div className="page-header">
       <div className="horizontal-container">
-        <img className="icon" alt="" src="/5-1@2x.png" />
+        <img className="icon" alt="" src="./5-1@2x.png" />
         <div className="horizontal-container1">
           {isSmallScreen ? (
             <div className="dropdown" onClick={toggleDropdown}>
               <div className="container">
-                <img className="placeholder-icon" alt="" src="/dot-menu.svg" />
+                <img className="placeholder-icon" alt="" src="./dot-menu.svg" />
 
                 <img
                   className={`chevrondown-icon ${isDropdownOpen ? "open" : ""}`}
@@ -60,39 +60,39 @@ const Header = () => {
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
                 <div className="text">Home</div>
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
               </div>
               <div className="button">
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
                 <div className="text">Rooms</div>
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
               </div>
               <div className="button" onClick={facilitiesFunction}>
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
                 <div className="text">Facilities</div>
                 <img
                   className="placeholder-icon"
                   alt=""
-                  src="/placeholder.svg"
+                  src="./placeholder.svg"
                 />
               </div>
             </>
@@ -102,13 +102,13 @@ const Header = () => {
               <img
                 className="placeholder-icon"
                 alt=""
-                src="/placeholder2.svg"
+                src="./placeholder2.svg"
               />
               <div className="text">Contact</div>
               <img
                 className="placeholder-icon"
                 alt=""
-                src="/placeholder2.svg"
+                src="./placeholder2.svg"
               />
             </div>
           </div>

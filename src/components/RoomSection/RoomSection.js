@@ -41,8 +41,8 @@ const RoomSection = () => {
         />
       </div>
 
-      <img className="arrow-icon" alt="" src="/arrow.svg" />
-      <img className="arrow-icon1" alt="" src="/arrow1.svg" />
+      <img className="arrow-icon" alt="" src="./arrow.svg" />
+      <img className="arrow-icon1" alt="" src="./arrow1.svg" />
     </div>
   );
 };

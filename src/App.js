@@ -44,9 +44,9 @@ function App() {
   }, [pathname]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Homepage />} />
-    </Routes>
+    <div>
+      <Homepage />
+    </div>
   );
 }
 export default App;
